@@ -1,0 +1,1 @@
+Não fiz a parte de HTML pois tenho dificuldade até mesmo de começar, é uma parte confusa pra mim.

@@ -1,6 +1,5 @@
 package application.model;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,11 +14,7 @@ public class Alternativa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-
-    @Column(unique = true, nullable = false)
     private String Texto;
-    
-    @Column(nullable = false)
     private boolean isCorreta;
 
     @ManyToOne
